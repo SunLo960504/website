@@ -1,0 +1,107 @@
+*{
+   margin: 0;
+}
+
+header{
+   background-color: cornsilk;
+   border-style: solid;
+   border-color: black;
+   border-width: 3px;
+   margin: 100px;
+   padding: 20px; 
+   letter-spacing: 5px;
+}
+
+#title{
+   margin-top: 15px;
+   margin-bottom: 30px;
+   color: orange;
+}
+
+body{
+   text-align: center;
+   background-color: ivory;
+   font-family: Helvetica, Arial, sans-serif;
+   line-height: 20px;
+}
+
+img{
+   width: 230px;
+   height: 300px;
+   border-radius: 50%;
+}
+
+.box{
+   padding: 10%;
+   text-align: left;
+   overflow: hidden;
+   padding-left: 300px;
+} 
+
+.box img{
+   width: 230px;
+   height: 300px;
+   float: left;
+   padding: 7px;
+}
+
+#box1 {
+   background-color: #d02f6b;
+}
+
+#box2 {
+   background-color: #35ca81;
+}
+
+#box3 {
+   background-color: gold;
+}
+
+#box4 {
+   background-color: lightpink;
+}
+
+#box5 {
+   background-color: lightskyblue;
+}
+
+#contact-me {
+   background-color: white;
+   padding: 3% 0;
+   }
+   
+#contact-me h1 {
+   margin-bottom: 3%;
+   }
+
+.button {
+   background-color: black;
+   border: 3px solid black;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 10px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.button:hover {
+   color: black;
+   background-color: white;
+}
+
+.fa-facebook {
+   background-color: blue;
+   font-size: 15px 32px;
+   padding: 20px;
+   color: white;
+   border-radius: 70%;
+}
+
+.fa-facebook:hover {
+   background-color: white;
+   color: blue;
+   border: 3px solid blue;
+} 
